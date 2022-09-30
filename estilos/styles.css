@@ -1,0 +1,85 @@
+body{
+    background: #f7ff00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.form-register{
+    width: 98%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+.form__titulo {
+    background : deepskyblue ;
+    color : #fff ;
+    padding : 20px ;
+    text-align : center ;
+    font-weight : 100 ;
+    font-size : 30px ;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px salmon;
+
+   }
+
+   .contenedor-inputs {
+    padding : 10px 30px ;
+    display : flex ;
+    flex-wrap : wrap ;
+    justify-content : space-between ;
+   }
+  
+   input {
+    margin-bottom : 15px ;
+    padding : 15px ;
+    font-size : 16px ;
+    border-radius : 3px ;
+    border : 1px solid darkgray ;
+   }
+    h4{padding : 0px 40px ;
+    display : flex ;
+    flex-wrap : wrap ;
+    justify-content : space-between ;
+    font-family: 'Roboto', sans-serif;
+    font-style:italic;
+
+}
+   .input-25{
+    width :5%;
+   } 
+    .input-48{
+    width :48%;
+   }   
+   .input-100 {
+    width:100%;
+    }
+
+    .btn-enviar {
+        background: #16BFFD;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+         color : #fff ;
+        margin : auto ;
+        padding : 10px 40px ;
+         cursor: pointer ;
+         font-size: 20px;
+    }
+       .btn-enviar:active{
+        transform: scale(1.05);
+       }
+
+
+
